@@ -9,12 +9,27 @@
 /* Begin PBXBuildFile section */
 		180B7A311FEF7B54004B2C34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 180B7A301FEF7B54004B2C34 /* main.m */; };
 		180B7A341FEF7B54004B2C34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 180B7A331FEF7B54004B2C34 /* AppDelegate.m */; };
-		180B7A371FEF7B54004B2C34 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180B7A361FEF7B54004B2C34 /* ViewController.m */; };
-		180B7A3A1FEF7B54004B2C34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180B7A381FEF7B54004B2C34 /* Main.storyboard */; };
 		180B7A3C1FEF7B54004B2C34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180B7A3B1FEF7B54004B2C34 /* Assets.xcassets */; };
 		180B7A3F1FEF7B54004B2C34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180B7A3D1FEF7B54004B2C34 /* LaunchScreen.storyboard */; };
 		180B7A4A1FEF7B55004B2C34 /* FIFA_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 180B7A491FEF7B55004B2C34 /* FIFA_AppTests.m */; };
 		180B7A551FEF7B55004B2C34 /* FIFA_AppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 180B7A541FEF7B55004B2C34 /* FIFA_AppUITests.m */; };
+		3376AF1A0AE9F2075A95ECC3 /* libPods-FIFA_AppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAAF6738C7DCBCDB0B5F2E56 /* libPods-FIFA_AppTests.a */; };
+		84776A1D680529C0782F332D /* libPods-FIFA_AppUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA926BD5B8362895B71658A9 /* libPods-FIFA_AppUITests.a */; };
+		85EAEFF51FEF941C0039F714 /* Window.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85EAEFF41FEF941B0039F714 /* Window.xib */; };
+		85EAF01C1FEF986A0039F714 /* AlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EAEFF91FEF98690039F714 /* AlertView.m */; };
+		85EAF01D1FEF986A0039F714 /* UIColor+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EAEFFE1FEF98690039F714 /* UIColor+Additions.m */; };
+		85EAF01E1FEF986A0039F714 /* UIImage+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EAF0011FEF98690039F714 /* UIImage+Additions.m */; };
+		85EAF01F1FEF986A0039F714 /* UITextField+AdditionsPedding.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EAF0041FEF98690039F714 /* UITextField+AdditionsPedding.m */; };
+		85EAF0201FEF986A0039F714 /* CommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EAF0071FEF986A0039F714 /* CommonFunctions.m */; };
+		85EAF0211FEF986A0039F714 /* Config.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EAF00A1FEF986A0039F714 /* Config.m */; };
+		85EAF0221FEF986A0039F714 /* HTTPService.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EAF00D1FEF986A0039F714 /* HTTPService.m */; };
+		85EAF0231FEF986A0039F714 /* NSObject+PE.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EAF0101FEF986A0039F714 /* NSObject+PE.m */; };
+		85EAF0241FEF986A0039F714 /* FaceBookHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EAF0141FEF986A0039F714 /* FaceBookHelper.m */; };
+		85EAF0251FEF986A0039F714 /* TwitterHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EAF0171FEF986A0039F714 /* TwitterHelper.m */; };
+		85EAF0261FEF986A0039F714 /* Validate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EAF01B1FEF986A0039F714 /* Validate.m */; };
+		85EAF02E1FEF98B60039F714 /* TakeATourVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EAF02B1FEF98B50039F714 /* TakeATourVC.m */; };
+		85EAF02F1FEF98B60039F714 /* TakeATourVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85EAF02D1FEF98B60039F714 /* TakeATourVC.xib */; };
+		9A1ADD83E51F17C4AB8FC42D /* libPods-FIFA_App.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19EE938B5D1208B401836B2E /* libPods-FIFA_App.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +50,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		160938B6BAC2E34341A789D5 /* Pods-FIFA_App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FIFA_App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FIFA_App/Pods-FIFA_App.debug.xcconfig"; sourceTree = "<group>"; };
 		180B7A2C1FEF7B54004B2C34 /* FIFA_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FIFA_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		180B7A301FEF7B54004B2C34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		180B7A321FEF7B54004B2C34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		180B7A331FEF7B54004B2C34 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		180B7A351FEF7B54004B2C34 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		180B7A361FEF7B54004B2C34 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		180B7A391FEF7B54004B2C34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		180B7A3B1FEF7B54004B2C34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		180B7A3E1FEF7B54004B2C34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		180B7A401FEF7B54004B2C34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +64,43 @@
 		180B7A501FEF7B55004B2C34 /* FIFA_AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FIFA_AppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		180B7A541FEF7B55004B2C34 /* FIFA_AppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FIFA_AppUITests.m; sourceTree = "<group>"; };
 		180B7A561FEF7B55004B2C34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19EE938B5D1208B401836B2E /* libPods-FIFA_App.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FIFA_App.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32BE477540DB01AD8139F216 /* Pods-FIFA_AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FIFA_AppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FIFA_AppTests/Pods-FIFA_AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		39A97E889A3DCC0269802EBD /* Pods-FIFA_AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FIFA_AppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FIFA_AppTests/Pods-FIFA_AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		5662100587D8A735DB589F30 /* Pods-FIFA_AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FIFA_AppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FIFA_AppUITests/Pods-FIFA_AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		77F5EC6F0F996B4B01C6946A /* Pods-FIFA_App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FIFA_App.release.xcconfig"; path = "Pods/Target Support Files/Pods-FIFA_App/Pods-FIFA_App.release.xcconfig"; sourceTree = "<group>"; };
+		85EAEFF41FEF941B0039F714 /* Window.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Window.xib; sourceTree = "<group>"; };
+		85EAEFF81FEF98690039F714 /* AlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertView.h; sourceTree = "<group>"; };
+		85EAEFF91FEF98690039F714 /* AlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertView.m; sourceTree = "<group>"; };
+		85EAEFFB1FEF98690039F714 /* AllCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllCategories.h; sourceTree = "<group>"; };
+		85EAEFFD1FEF98690039F714 /* UIColor+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Additions.h"; sourceTree = "<group>"; };
+		85EAEFFE1FEF98690039F714 /* UIColor+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Additions.m"; sourceTree = "<group>"; };
+		85EAF0001FEF98690039F714 /* UIImage+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Additions.h"; sourceTree = "<group>"; };
+		85EAF0011FEF98690039F714 /* UIImage+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Additions.m"; sourceTree = "<group>"; };
+		85EAF0031FEF98690039F714 /* UITextField+AdditionsPedding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+AdditionsPedding.h"; sourceTree = "<group>"; };
+		85EAF0041FEF98690039F714 /* UITextField+AdditionsPedding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+AdditionsPedding.m"; sourceTree = "<group>"; };
+		85EAF0061FEF986A0039F714 /* CommonFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonFunctions.h; sourceTree = "<group>"; };
+		85EAF0071FEF986A0039F714 /* CommonFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonFunctions.m; sourceTree = "<group>"; };
+		85EAF0091FEF986A0039F714 /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		85EAF00A1FEF986A0039F714 /* Config.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Config.m; sourceTree = "<group>"; };
+		85EAF00C1FEF986A0039F714 /* HTTPService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPService.h; sourceTree = "<group>"; };
+		85EAF00D1FEF986A0039F714 /* HTTPService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPService.m; sourceTree = "<group>"; };
+		85EAF00F1FEF986A0039F714 /* NSObject+PE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+PE.h"; sourceTree = "<group>"; };
+		85EAF0101FEF986A0039F714 /* NSObject+PE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+PE.m"; sourceTree = "<group>"; };
+		85EAF0131FEF986A0039F714 /* FaceBookHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceBookHelper.h; sourceTree = "<group>"; };
+		85EAF0141FEF986A0039F714 /* FaceBookHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceBookHelper.m; sourceTree = "<group>"; };
+		85EAF0161FEF986A0039F714 /* TwitterHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterHelper.h; sourceTree = "<group>"; };
+		85EAF0171FEF986A0039F714 /* TwitterHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterHelper.m; sourceTree = "<group>"; };
+		85EAF0181FEF986A0039F714 /* UI+Macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UI+Macros.h"; sourceTree = "<group>"; };
+		85EAF01A1FEF986A0039F714 /* Validate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Validate.h; sourceTree = "<group>"; };
+		85EAF01B1FEF986A0039F714 /* Validate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Validate.m; sourceTree = "<group>"; };
+		85EAF02B1FEF98B50039F714 /* TakeATourVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TakeATourVC.m; sourceTree = "<group>"; };
+		85EAF02C1FEF98B50039F714 /* TakeATourVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TakeATourVC.h; sourceTree = "<group>"; };
+		85EAF02D1FEF98B60039F714 /* TakeATourVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TakeATourVC.xib; sourceTree = "<group>"; };
+		85EAF0301FEF9DA20039F714 /* FIFA_App.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FIFA_App.pch; sourceTree = "<group>"; };
+		B847E3AA12DB28FF23B62540 /* Pods-FIFA_AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FIFA_AppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FIFA_AppUITests/Pods-FIFA_AppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CAAF6738C7DCBCDB0B5F2E56 /* libPods-FIFA_AppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FIFA_AppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA926BD5B8362895B71658A9 /* libPods-FIFA_AppUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FIFA_AppUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A1ADD83E51F17C4AB8FC42D /* libPods-FIFA_App.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3376AF1A0AE9F2075A95ECC3 /* libPods-FIFA_AppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84776A1D680529C0782F332D /* libPods-FIFA_AppUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +138,8 @@
 				180B7A481FEF7B55004B2C34 /* FIFA_AppTests */,
 				180B7A531FEF7B55004B2C34 /* FIFA_AppUITests */,
 				180B7A2D1FEF7B54004B2C34 /* Products */,
+				3F2EEFA702091209F75B9670 /* Pods */,
+				E0C257FE1BBE968BE81D812A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,11 +158,11 @@
 			children = (
 				180B7A321FEF7B54004B2C34 /* AppDelegate.h */,
 				180B7A331FEF7B54004B2C34 /* AppDelegate.m */,
-				180B7A351FEF7B54004B2C34 /* ViewController.h */,
-				180B7A361FEF7B54004B2C34 /* ViewController.m */,
-				180B7A381FEF7B54004B2C34 /* Main.storyboard */,
+				85EAEFF61FEF98690039F714 /* Rocket */,
+				85EAF0271FEF98960039F714 /* MVC */,
 				180B7A3B1FEF7B54004B2C34 /* Assets.xcassets */,
 				180B7A3D1FEF7B54004B2C34 /* LaunchScreen.storyboard */,
+				85EAEFF41FEF941B0039F714 /* Window.xib */,
 				180B7A401FEF7B54004B2C34 /* Info.plist */,
 				180B7A2F1FEF7B54004B2C34 /* Supporting Files */,
 			);
@@ -118,6 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				180B7A301FEF7B54004B2C34 /* main.m */,
+				85EAF0301FEF9DA20039F714 /* FIFA_App.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -140,6 +196,198 @@
 			path = FIFA_AppUITests;
 			sourceTree = "<group>";
 		};
+		3F2EEFA702091209F75B9670 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				160938B6BAC2E34341A789D5 /* Pods-FIFA_App.debug.xcconfig */,
+				77F5EC6F0F996B4B01C6946A /* Pods-FIFA_App.release.xcconfig */,
+				32BE477540DB01AD8139F216 /* Pods-FIFA_AppTests.debug.xcconfig */,
+				39A97E889A3DCC0269802EBD /* Pods-FIFA_AppTests.release.xcconfig */,
+				5662100587D8A735DB589F30 /* Pods-FIFA_AppUITests.debug.xcconfig */,
+				B847E3AA12DB28FF23B62540 /* Pods-FIFA_AppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		85EAEFF61FEF98690039F714 /* Rocket */ = {
+			isa = PBXGroup;
+			children = (
+				85EAEFF71FEF98690039F714 /* AlertView */,
+				85EAEFFA1FEF98690039F714 /* Categories */,
+				85EAF0051FEF98690039F714 /* ComonFunctions */,
+				85EAF0081FEF986A0039F714 /* Config */,
+				85EAF00B1FEF986A0039F714 /* HTTPServices */,
+				85EAF00E1FEF986A0039F714 /* NSObject */,
+				85EAF0111FEF986A0039F714 /* SocialLogin */,
+				85EAF0181FEF986A0039F714 /* UI+Macros.h */,
+				85EAF0191FEF986A0039F714 /* Validations */,
+			);
+			path = Rocket;
+			sourceTree = "<group>";
+		};
+		85EAEFF71FEF98690039F714 /* AlertView */ = {
+			isa = PBXGroup;
+			children = (
+				85EAEFF81FEF98690039F714 /* AlertView.h */,
+				85EAEFF91FEF98690039F714 /* AlertView.m */,
+			);
+			path = AlertView;
+			sourceTree = "<group>";
+		};
+		85EAEFFA1FEF98690039F714 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				85EAEFFB1FEF98690039F714 /* AllCategories.h */,
+				85EAEFFC1FEF98690039F714 /* Color */,
+				85EAEFFF1FEF98690039F714 /* Image */,
+				85EAF0021FEF98690039F714 /* UITextField+AdditionsPedding */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		85EAEFFC1FEF98690039F714 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				85EAEFFD1FEF98690039F714 /* UIColor+Additions.h */,
+				85EAEFFE1FEF98690039F714 /* UIColor+Additions.m */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		85EAEFFF1FEF98690039F714 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				85EAF0001FEF98690039F714 /* UIImage+Additions.h */,
+				85EAF0011FEF98690039F714 /* UIImage+Additions.m */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		85EAF0021FEF98690039F714 /* UITextField+AdditionsPedding */ = {
+			isa = PBXGroup;
+			children = (
+				85EAF0031FEF98690039F714 /* UITextField+AdditionsPedding.h */,
+				85EAF0041FEF98690039F714 /* UITextField+AdditionsPedding.m */,
+			);
+			path = "UITextField+AdditionsPedding";
+			sourceTree = "<group>";
+		};
+		85EAF0051FEF98690039F714 /* ComonFunctions */ = {
+			isa = PBXGroup;
+			children = (
+				85EAF0061FEF986A0039F714 /* CommonFunctions.h */,
+				85EAF0071FEF986A0039F714 /* CommonFunctions.m */,
+			);
+			path = ComonFunctions;
+			sourceTree = "<group>";
+		};
+		85EAF0081FEF986A0039F714 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				85EAF0091FEF986A0039F714 /* Config.h */,
+				85EAF00A1FEF986A0039F714 /* Config.m */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		85EAF00B1FEF986A0039F714 /* HTTPServices */ = {
+			isa = PBXGroup;
+			children = (
+				85EAF00C1FEF986A0039F714 /* HTTPService.h */,
+				85EAF00D1FEF986A0039F714 /* HTTPService.m */,
+			);
+			path = HTTPServices;
+			sourceTree = "<group>";
+		};
+		85EAF00E1FEF986A0039F714 /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				85EAF00F1FEF986A0039F714 /* NSObject+PE.h */,
+				85EAF0101FEF986A0039F714 /* NSObject+PE.m */,
+			);
+			path = NSObject;
+			sourceTree = "<group>";
+		};
+		85EAF0111FEF986A0039F714 /* SocialLogin */ = {
+			isa = PBXGroup;
+			children = (
+				85EAF0121FEF986A0039F714 /* Facebook */,
+				85EAF0151FEF986A0039F714 /* Twitter */,
+			);
+			path = SocialLogin;
+			sourceTree = "<group>";
+		};
+		85EAF0121FEF986A0039F714 /* Facebook */ = {
+			isa = PBXGroup;
+			children = (
+				85EAF0131FEF986A0039F714 /* FaceBookHelper.h */,
+				85EAF0141FEF986A0039F714 /* FaceBookHelper.m */,
+			);
+			path = Facebook;
+			sourceTree = "<group>";
+		};
+		85EAF0151FEF986A0039F714 /* Twitter */ = {
+			isa = PBXGroup;
+			children = (
+				85EAF0161FEF986A0039F714 /* TwitterHelper.h */,
+				85EAF0171FEF986A0039F714 /* TwitterHelper.m */,
+			);
+			path = Twitter;
+			sourceTree = "<group>";
+		};
+		85EAF0191FEF986A0039F714 /* Validations */ = {
+			isa = PBXGroup;
+			children = (
+				85EAF01A1FEF986A0039F714 /* Validate.h */,
+				85EAF01B1FEF986A0039F714 /* Validate.m */,
+			);
+			path = Validations;
+			sourceTree = "<group>";
+		};
+		85EAF0271FEF98960039F714 /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				85EAF0281FEF98960039F714 /* Controllers */,
+				85EAF0291FEF98960039F714 /* Models */,
+				85EAF02A1FEF98960039F714 /* Views */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		85EAF0281FEF98960039F714 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				85EAF02C1FEF98B50039F714 /* TakeATourVC.h */,
+				85EAF02B1FEF98B50039F714 /* TakeATourVC.m */,
+				85EAF02D1FEF98B60039F714 /* TakeATourVC.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		85EAF0291FEF98960039F714 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		85EAF02A1FEF98960039F714 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E0C257FE1BBE968BE81D812A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19EE938B5D1208B401836B2E /* libPods-FIFA_App.a */,
+				CAAF6738C7DCBCDB0B5F2E56 /* libPods-FIFA_AppTests.a */,
+				EA926BD5B8362895B71658A9 /* libPods-FIFA_AppUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +395,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 180B7A591FEF7B55004B2C34 /* Build configuration list for PBXNativeTarget "FIFA_App" */;
 			buildPhases = (
+				03081C6537B3721220EEF48A /* [CP] Check Pods Manifest.lock */,
 				180B7A281FEF7B54004B2C34 /* Sources */,
 				180B7A291FEF7B54004B2C34 /* Frameworks */,
 				180B7A2A1FEF7B54004B2C34 /* Resources */,
+				EEA0FDAD6E95B40C1814FE97 /* [CP] Embed Pods Frameworks */,
+				3585D92F22107A6453B90E2F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +415,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 180B7A5C1FEF7B55004B2C34 /* Build configuration list for PBXNativeTarget "FIFA_AppTests" */;
 			buildPhases = (
+				9F82782917BF66A3626DD5CF /* [CP] Check Pods Manifest.lock */,
 				180B7A411FEF7B55004B2C34 /* Sources */,
 				180B7A421FEF7B55004B2C34 /* Frameworks */,
 				180B7A431FEF7B55004B2C34 /* Resources */,
+				BE940F3C3DC8606ADEBB95AC /* [CP] Embed Pods Frameworks */,
+				FFDA31197D561729099E04D0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +436,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 180B7A5F1FEF7B55004B2C34 /* Build configuration list for PBXNativeTarget "FIFA_AppUITests" */;
 			buildPhases = (
+				AA59035926F5E58539293857 /* [CP] Check Pods Manifest.lock */,
 				180B7A4C1FEF7B55004B2C34 /* Sources */,
 				180B7A4D1FEF7B55004B2C34 /* Frameworks */,
 				180B7A4E1FEF7B55004B2C34 /* Resources */,
+				F6029E332C5574F0B3753EAB /* [CP] Embed Pods Frameworks */,
+				24F77DA56176628350809D4D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,12 +459,12 @@
 		180B7A241FEF7B54004B2C34 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = apple;
 				TargetAttributes = {
 					180B7A2B1FEF7B54004B2C34 = {
 						CreatedOnToolsVersion = 8.3.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					180B7A441FEF7B55004B2C34 = {
 						CreatedOnToolsVersion = 8.3.2;
@@ -248,7 +505,8 @@
 			files = (
 				180B7A3F1FEF7B54004B2C34 /* LaunchScreen.storyboard in Resources */,
 				180B7A3C1FEF7B54004B2C34 /* Assets.xcassets in Resources */,
-				180B7A3A1FEF7B54004B2C34 /* Main.storyboard in Resources */,
+				85EAF02F1FEF98B60039F714 /* TakeATourVC.xib in Resources */,
+				85EAEFF51FEF941C0039F714 /* Window.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,14 +526,177 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		03081C6537B3721220EEF48A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FIFA_App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		24F77DA56176628350809D4D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FIFA_AppUITests/Pods-FIFA_AppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3585D92F22107A6453B90E2F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FIFA_App/Pods-FIFA_App-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterShareExtensionUIResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FIFA_App/Pods-FIFA_App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F82782917BF66A3626DD5CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FIFA_AppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA59035926F5E58539293857 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FIFA_AppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE940F3C3DC8606ADEBB95AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FIFA_AppTests/Pods-FIFA_AppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEA0FDAD6E95B40C1814FE97 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FIFA_App/Pods-FIFA_App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6029E332C5574F0B3753EAB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FIFA_AppUITests/Pods-FIFA_AppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFDA31197D561729099E04D0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FIFA_AppTests/Pods-FIFA_AppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		180B7A281FEF7B54004B2C34 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				180B7A371FEF7B54004B2C34 /* ViewController.m in Sources */,
+				85EAF0251FEF986A0039F714 /* TwitterHelper.m in Sources */,
+				85EAF01D1FEF986A0039F714 /* UIColor+Additions.m in Sources */,
+				85EAF02E1FEF98B60039F714 /* TakeATourVC.m in Sources */,
+				85EAF0241FEF986A0039F714 /* FaceBookHelper.m in Sources */,
+				85EAF0221FEF986A0039F714 /* HTTPService.m in Sources */,
+				85EAF01E1FEF986A0039F714 /* UIImage+Additions.m in Sources */,
+				85EAF01F1FEF986A0039F714 /* UITextField+AdditionsPedding.m in Sources */,
 				180B7A341FEF7B54004B2C34 /* AppDelegate.m in Sources */,
+				85EAF0261FEF986A0039F714 /* Validate.m in Sources */,
+				85EAF0231FEF986A0039F714 /* NSObject+PE.m in Sources */,
+				85EAF01C1FEF986A0039F714 /* AlertView.m in Sources */,
 				180B7A311FEF7B54004B2C34 /* main.m in Sources */,
+				85EAF0201FEF986A0039F714 /* CommonFunctions.m in Sources */,
+				85EAF0211FEF986A0039F714 /* Config.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,14 +732,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		180B7A381FEF7B54004B2C34 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				180B7A391FEF7B54004B2C34 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		180B7A3D1FEF7B54004B2C34 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -340,7 +753,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -348,7 +763,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -389,7 +808,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -397,7 +818,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -424,28 +849,41 @@
 		};
 		180B7A5A1FEF7B55004B2C34 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 160938B6BAC2E34341A789D5 /* Pods-FIFA_App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = FIFA_App/FIFA_App.pch;
 				INFOPLIST_FILE = FIFA_App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.trackasd.FIFA-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		180B7A5B1FEF7B55004B2C34 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77F5EC6F0F996B4B01C6946A /* Pods-FIFA_App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = FIFA_App/FIFA_App.pch;
 				INFOPLIST_FILE = FIFA_App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.trackasd.FIFA-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		180B7A5D1FEF7B55004B2C34 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32BE477540DB01AD8139F216 /* Pods-FIFA_AppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = FIFA_AppTests/Info.plist;
@@ -458,6 +896,7 @@
 		};
 		180B7A5E1FEF7B55004B2C34 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39A97E889A3DCC0269802EBD /* Pods-FIFA_AppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = FIFA_AppTests/Info.plist;
@@ -470,6 +909,7 @@
 		};
 		180B7A601FEF7B55004B2C34 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5662100587D8A735DB589F30 /* Pods-FIFA_AppUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = FIFA_AppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -481,6 +921,7 @@
 		};
 		180B7A611FEF7B55004B2C34 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B847E3AA12DB28FF23B62540 /* Pods-FIFA_AppUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = FIFA_AppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -509,6 +950,7 @@
 				180B7A5B1FEF7B55004B2C34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		180B7A5C1FEF7B55004B2C34 /* Build configuration list for PBXNativeTarget "FIFA_AppTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +959,7 @@
 				180B7A5E1FEF7B55004B2C34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		180B7A5F1FEF7B55004B2C34 /* Build configuration list for PBXNativeTarget "FIFA_AppUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +968,7 @@
 				180B7A611FEF7B55004B2C34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

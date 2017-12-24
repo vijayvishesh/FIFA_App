@@ -1,0 +1,23 @@
+//
+//  FIFA_App.pch
+//  FIFA_App
+//
+//  Created by Rajneesh Saini on 24/12/17.
+//  Copyright © 2017 apple. All rights reserved.
+//
+
+#ifndef FIFA_App_pch
+#define FIFA_App_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
+#import "Config.h"
+#import "CommonFunctions.h"
+
+#import "UIView+WebCache.h"
+
+#endif /* FIFA_App_pch */

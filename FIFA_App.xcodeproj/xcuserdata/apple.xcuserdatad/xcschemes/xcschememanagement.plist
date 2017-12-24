@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>FIFA_App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>180B7A2B1FEF7B54004B2C34</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>180B7A441FEF7B55004B2C34</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>180B7A4F1FEF7B55004B2C34</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

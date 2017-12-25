@@ -32,10 +32,9 @@
 - (void)getUserInfo:(TWTRSession *)userSession {
     
     TWTRAPIClient *client = [TWTRAPIClient clientWithCurrentUser];
-    NSURLRequest *request = [client URLRequestWithMethod:@"GET"
-                                                     URL:@"https://api.twitter.com/1.1/account/verify_credentials.json"
-                                              parameters:@{@"include_email": @"true", @"skip_status": @"true"}
-                                                   error:nil];
+    
+   NSURLRequest *request = [client URLRequestWithMethod:@"GET" URLString:@"https://api.twitter.com/1.1/account/verify_credentials.json" parameters:@{@"include_email": @"true", @"skip_status": @"true"} error:nil];
+    
     
     [client sendTwitterRequest:request completion:^(NSURLResponse *response, NSData *data, NSError *connectionError) {
         

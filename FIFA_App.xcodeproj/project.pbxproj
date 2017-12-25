@@ -196,6 +196,20 @@
 			path = FIFA_AppUITests;
 			sourceTree = "<group>";
 		};
+		18A267311FF0E8A9006F225E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		18A267321FF0E8A9006F225E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		3F2EEFA702091209F75B9670 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -347,9 +361,9 @@
 		85EAF0271FEF98960039F714 /* MVC */ = {
 			isa = PBXGroup;
 			children = (
+				18A267321FF0E8A9006F225E /* Models */,
+				18A267311FF0E8A9006F225E /* Views */,
 				85EAF0281FEF98960039F714 /* Controllers */,
-				85EAF0291FEF98960039F714 /* Models */,
-				85EAF02A1FEF98960039F714 /* Views */,
 			);
 			path = MVC;
 			sourceTree = "<group>";
@@ -362,20 +376,6 @@
 				85EAF02D1FEF98B60039F714 /* TakeATourVC.xib */,
 			);
 			path = Controllers;
-			sourceTree = "<group>";
-		};
-		85EAF0291FEF98960039F714 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		85EAF02A1FEF98960039F714 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 		E0C257FE1BBE968BE81D812A /* Frameworks */ = {
@@ -637,9 +637,14 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FIFA_App/Pods-FIFA_App-frameworks.sh",
+				"${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

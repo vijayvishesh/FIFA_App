@@ -14,6 +14,7 @@ target 'FIFA_App' do
   pod 'IQKeyboardManager'
   pod 'Facebook-iOS-SDK'
   pod 'TwitterKit'
+  pod 'TwitterCore'
 
   target 'FIFA_AppTests' do
     inherit! :search_paths

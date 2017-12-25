@@ -9,6 +9,7 @@
 #import <MBProgressHUD/MBProgressHUD.h>
 #import <Reachability/Reachability.h>
 #import <CoreLocation/CoreLocation.h>
+#import <Twitter/Twitter.h>
 
 #import "UI+Macros.h"
 #import "AllCategories.h"

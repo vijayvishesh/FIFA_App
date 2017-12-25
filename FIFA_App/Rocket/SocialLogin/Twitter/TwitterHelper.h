@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <TwitterKit/TwitterKit.h>
+#import <TwitterKit/TWTRKit.h>
 
 // Block type that takes any object
 typedef void (^operationFinishedBlockTwitter)( NSString *accessToken,id responseData);
